@@ -1,0 +1,1 @@
+UPDATE highschooler SET grade = grade + 1;
