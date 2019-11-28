@@ -1,0 +1,1 @@
+INSERT into highschooler values (2000,'jane',9);
