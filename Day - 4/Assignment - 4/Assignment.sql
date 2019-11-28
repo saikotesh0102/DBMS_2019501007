@@ -1,4 +1,4 @@
-SELECT highschooler.name 
+SELECT highschooler.name,highschooler.grade
 FROM highschooler, (
     SELECT data.id1 
     FROM (
