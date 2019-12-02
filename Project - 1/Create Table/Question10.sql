@@ -1,0 +1,1 @@
+CREATE table countries (country_id int PRIMARY KEY, country_name text, region_id int);

@@ -1,0 +1,1 @@
+CREATE table jobs(job_id int, job_title text, min_salary int, max_salary int CHECK(max_salary > 25000));

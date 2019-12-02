@@ -1,0 +1,1 @@
+CREATE table countries (country_id int, country_name text, region_id int, UNIQUE(country_id,region_id));
