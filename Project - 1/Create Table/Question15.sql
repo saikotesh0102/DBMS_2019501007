@@ -1,0 +1,1 @@
+CREATE table employees(employee_id int PRIMARY KEY, first_name text, last_name text, email text, phone_number int, hire_date date, job_id int, salary int, commission int, manager_id int, department_id int, foreign key(department_id) references department(department_id), foreign key(job_id) references jobs(job_id));

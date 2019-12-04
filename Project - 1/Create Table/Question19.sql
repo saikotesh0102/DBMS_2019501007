@@ -1,0 +1,1 @@
+CREATE table employees(employee_id int PRIMARY KEY, first_name text, last_name text, job_id int, salary int, foreign key(job_id) references jobs(job_id) ON DELETE NO ACTION ON UPDATE NO ACTION);

@@ -1,0 +1,1 @@
+CREATE table job_history(employee_id int Primary key, start_date date, end_date date, job_id int, department_id int, foreign key(job_id) references jobs(job_id));
