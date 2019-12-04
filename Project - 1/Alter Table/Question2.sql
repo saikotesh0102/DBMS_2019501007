@@ -1,0 +1,1 @@
+ALTER table locations add column region_id int;
