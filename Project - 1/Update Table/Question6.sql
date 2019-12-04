@@ -1,0 +1,1 @@
+UPDATE employees SET salary = 8000 WHERE (SELECT salary from employees WHERE employee_id = 105) < 5000;

@@ -1,0 +1,1 @@
+UPDATE employees SET job_id = 'SH_CLERK' WHERE department_id = 30 and employee_id = 118 and job_id not like 'SH%';

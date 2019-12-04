@@ -1,0 +1,1 @@
+UPDATE employees SET email = 'not available', commission = 0.10 WHERE department_id = 110;
