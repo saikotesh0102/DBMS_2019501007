@@ -1,0 +1,1 @@
+ALTER table locations DROP city;

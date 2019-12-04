@@ -1,0 +1,1 @@
+ALTER table locations RENAME state_province to state;

@@ -1,0 +1,1 @@
+ALTER table locations ADD PRIMARY KEY(location_id);

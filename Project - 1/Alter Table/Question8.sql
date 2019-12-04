@@ -1,0 +1,1 @@
+ALTER table locations DROP CONSTRAINT locations_pkey;

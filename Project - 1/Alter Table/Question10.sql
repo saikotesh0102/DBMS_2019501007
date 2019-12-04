@@ -1,0 +1,1 @@
+ALTER table job_history ADD CONSTRAINT fk_job_id FOREIGN KEY(job_id) references jobs(job_id);

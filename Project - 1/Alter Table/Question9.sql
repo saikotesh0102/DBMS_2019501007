@@ -1,0 +1,1 @@
+ALTER table job_history ADD FOREIGN KEY(job_id) references jobs(job_id);
