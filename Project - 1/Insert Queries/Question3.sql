@@ -1,0 +1,1 @@
+SELECT * INTO country_new FROM countries;

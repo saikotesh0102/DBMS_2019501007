@@ -1,0 +1,1 @@
+INSERT INTO countries values (111, 'America', 785),(156, 'Australia', 856),(458, 'Uruguay', 745);

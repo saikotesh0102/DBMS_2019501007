@@ -1,0 +1,1 @@
+INSERT INTO jobs values(1001,'OFFICER',9000);

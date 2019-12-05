@@ -1,0 +1,1 @@
+INSERT INTO countries values(128, 'INDIA');

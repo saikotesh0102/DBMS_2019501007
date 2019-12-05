@@ -1,0 +1,2 @@
+INSERT INTO employees VALUES(510,'Alex','Hanes',60,1001,18000);
+INSERT INTO employees VALUES(511,'Tom','Elan',60,1003,22000);

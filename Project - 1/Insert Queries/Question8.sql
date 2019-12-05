@@ -1,0 +1,1 @@
+INSERT INTO countries VALUES(501,'Italy',185);
