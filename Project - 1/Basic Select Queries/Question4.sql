@@ -1,0 +1,1 @@
+SELECT first_name, last_name, salary, salary*.15 PF FROM employees;
