@@ -1,0 +1,1 @@
+SELECT MIN(salary),MAX(salary),AVG(salary),SUM(salary) FROM employees;

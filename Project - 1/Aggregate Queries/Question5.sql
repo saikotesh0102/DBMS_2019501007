@@ -1,0 +1,1 @@
+SELECT AVG(salary),count(*) FROM employees WHERE department_id = 90;

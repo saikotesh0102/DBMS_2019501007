@@ -1,0 +1,1 @@
+SELECT job_id,MIN(salary),MAX(salary),AVG(salary),SUM(salary) FROM employees WHERE department_id = 90 GROUP BY job_id;

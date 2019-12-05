@@ -1,0 +1,1 @@
+SELECT job_id, AVG(salary) FROM employees WHERE job_id <> 'Programmer' GROUP BY job_id;

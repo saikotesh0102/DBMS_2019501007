@@ -1,0 +1,1 @@
+SELECT first_name, last_name, round(salary/12.0,2) as Monthly_Salary FROM employees;
