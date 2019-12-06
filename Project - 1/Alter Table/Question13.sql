@@ -1,0 +1,1 @@
+ALTER TABLE job_history DROP CONSTRAINT index_job_id;
