@@ -1,0 +1,1 @@
+SELECT job_title, AVG(salary) FROM employees NATURAL JOIN jobs GROUP BY job_title;

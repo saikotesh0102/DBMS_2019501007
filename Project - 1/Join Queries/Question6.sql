@@ -1,0 +1,1 @@
+SELECT department_name, COUNT(*) FROM departments INNER JOIN employees ON employees.department_id = departments.department_id GROUP BY departments.department_id, department_name ORDER BY department_name;

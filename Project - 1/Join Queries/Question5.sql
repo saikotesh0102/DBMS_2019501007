@@ -1,0 +1,1 @@
+SELECT e.first_name, e.last_name, e.hire_date FROM employees e JOIN employees m ON (m.last_name = 'Jones') WHERE m.hire_date < e.hire_date;

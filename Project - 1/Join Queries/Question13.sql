@@ -1,0 +1,1 @@
+SELECT first_name, last_name, hire_date, salary, (DATEDIFF(now(), hire_date))/365 Experience FROM departments d JOIN employees e ON (d.manager_id = e.employee_id) WHERE (DATEDIFF(now(), hire_date))/365>15;

@@ -1,0 +1,1 @@
+SELECT jh.* FROM job_history jh JOIN employees e ON (jh.employee_id = e.employee_id) WHERE salary > 10000;

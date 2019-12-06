@@ -1,0 +1,1 @@
+SELECT employee_id, job_title, end_date-start_date Days FROM job_history NATURAL JOIN jobs WHERE department_id = 90;

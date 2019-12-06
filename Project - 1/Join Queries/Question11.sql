@@ -1,0 +1,1 @@
+SELECT job_title, first_name, salary-min_salary FROM employees NATURAL JOIN jobs;

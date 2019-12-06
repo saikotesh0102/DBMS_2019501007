@@ -1,0 +1,1 @@
+SELECT e.employee_id, e.last_name, m.manager_id, m.last_name FROM employees e join employees m ON (e.employee_id = m.employee_id);
