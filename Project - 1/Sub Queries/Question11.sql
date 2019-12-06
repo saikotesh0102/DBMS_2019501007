@@ -1,0 +1,1 @@
+SELECT first_name,last_name, job_id, salary FROM employees WHERE salary > ALL (SELECT salary FROM employees WHERE job_id = 'SH_CLERK') ORDER BY salary;

@@ -1,0 +1,1 @@
+SELECT * FROM departments WHERE department_id NOT IN (select department_id FROM employees);

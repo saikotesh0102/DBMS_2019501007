@@ -1,0 +1,1 @@
+SELECT * FROM (SELECT * FROM employees ORDER BY employee_id DESC LIMIT 10) sub ORDER BY employee_id ASC;

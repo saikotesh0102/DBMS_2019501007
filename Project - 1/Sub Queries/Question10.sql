@@ -1,0 +1,1 @@
+SELECT * FROM employees WHERE salary > ALL(SELECT avg(salary)FROM employees GROUP BY department_id);
